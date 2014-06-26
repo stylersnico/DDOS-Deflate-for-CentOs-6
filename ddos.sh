@@ -74,10 +74,10 @@ add_to_cron()
 {
 	rm -f "$CRON"
 	sleep 1
-	service cron restart
+	service crond restart
 	sleep 1
 	crontab -l | { cat; echo "* * * * * /usr/local/ddos/ddos.sh >> /var/log/deflate.log"; } | crontab -
-	service cron restart
+	service crond restart
 }
 
 
