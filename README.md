@@ -28,6 +28,25 @@ wget -O- https://raw.githubusercontent.com/stylersnico/DDOS-Deflate-for-CentOs-6
 
 
 
+Updates
+=======
+
+DDOS Deflate run an update script each month.
+
+You can disable it in crontab -e
+
+You can run the script with : /usr/local/ddos/update.sh
+
+
+Logs
+====
+
+DDOS Deflate log : /var/log/deflate.log
+
+DDOS Deflate updater log : /var/log/deflate-update.log
+
+
+
 If you like my work pay me a beer :)
 ====================================
 
