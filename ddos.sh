@@ -1,5 +1,5 @@
 #
-### -> Config file by Nicolas Simond (http://www.nicolas-simond.com/project/ddos-deflate-debian-7/) for Cent Os 6.5
+### -> Config file by Nicolas Simond (http://www.nicolas-simond.com/project/ddos-deflate-debian-7/) for CentOs 6.5
 ### -> View my tutorial for the installation : https://www.abyssproject.net/2014/06/installer-ddos-deflate-debian-7/
 #
 #!/bin/bash
@@ -74,10 +74,10 @@ add_to_cron()
 {
 	rm -f $CRON
 	sleep 1
-	service cron restart
+	service crond restart
 	sleep 1
 	crontab -l | { cat; echo "* * * * * /usr/local/ddos/ddos.sh >> /var/log/deflate.log"; } | crontab -
-	service cron restart
+	service crond restart
 }
 
 
