@@ -8,13 +8,13 @@ fi
 clear
 echo; echo 'Installing DOS-Deflate 0.6 + Mod 1.0 RHEL'; echo
 echo; echo -n 'Downloading source files...'
-wget -q -O /usr/local/ddos/ddos.conf https://raw.githubusercontent.com/stylersnico/DDOS-Deflate-for-Debian-7/master/ddos.conf
+wget -q -O /usr/local/ddos/ddos.conf https://raw.githubusercontent.com/stylersnico/DDOS-Deflate-for-CentOs-6/master/ddos.conf
 echo -n '.'
-wget -q -O /usr/local/ddos/LICENSE https://raw.githubusercontent.com/stylersnico/DDOS-Deflate-for-Debian-7/master/LICENSE
+wget -q -O /usr/local/ddos/LICENSE https://raw.githubusercontent.com/stylersnico/DDOS-Deflate-for-CentOs-6/master/LICENSE
 echo -n '.'
-wget -q -O /usr/local/ddos/ignore.ip.list https://raw.githubusercontent.com/stylersnico/DDOS-Deflate-for-Debian-7/master/ignore.ip.list
+wget -q -O /usr/local/ddos/ignore.ip.list https://raw.githubusercontent.com/stylersnico/DDOS-Deflate-for-CentOs-6/master/ignore.ip.list
 echo -n '.'
-wget -q -O /usr/local/ddos/ddos.sh https://raw.githubusercontent.com/stylersnico/DDOS-Deflate-for-Debian-7/master/ddos.sh
+wget -q -O /usr/local/ddos/ddos.sh https://raw.githubusercontent.com/stylersnico/DDOS-Deflate-for-CentOs-6/master/ddos.sh
 chmod 0755 /usr/local/ddos/ddos.sh
 cp -s /usr/local/ddos/ddos.sh /usr/local/sbin/ddos
 echo '...done'
