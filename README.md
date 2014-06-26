@@ -25,3 +25,10 @@ Uninstallation
 ==============
 
 wget -O- https://raw.githubusercontent.com/stylersnico/DDOS-Deflate-for-CentOs-6/master/uninstall.sh | sh
+
+
+
+If you like my work pay me a beer :)
+====================================
+
+http://goo.gl/sBZbpU
