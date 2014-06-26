@@ -8,6 +8,11 @@ Fully loaded for CentOs 6
 For any question : http://www.nicolas-simond.com/ | contact@nicolas-simond.com
 
 
+Full Tutorial
+=============
+
+http://www.abyssproject.net/2014/06/installer-ddos-deflate-centos-6/
+
 
 Installation
 ============
