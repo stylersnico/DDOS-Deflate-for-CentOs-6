@@ -26,9 +26,9 @@ load_conf()
 
 head()
 {
-	echo "DDoS-Deflate version 0.6 + Mod 1.0 Wheezy"
+	echo "DDoS-Deflate version 0.6 + Mod 1.0 RHEL"
 	echo "Copyright (C) 2005, Zaf <zaf@vsnl.com>"
-	echo "+MOD 1.0 Wheezy"
+	echo "+MOD 1.0 RHEL"
 	echo "Copyright (C) 2014, Nicolas Simond <contact@nicolas-simond.com>"
 	echo
 }
